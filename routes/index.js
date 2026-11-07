@@ -4,4 +4,5 @@ router.get('/vision',(req,res)=>res.redirect('/topics/vision'));
 router.get('/patterns',(req,res)=>res.redirect('/topics/patterns'));
 router.get('/actions',(req,res)=>res.redirect('/topics/actions'));
 router.get('/text',(req,res)=>res.redirect('/topics/text'));
+router.get('/logreg',(req,res)=>res.render('logreg',{title:'Вход и регистрация',home:false,error:null}));
 module.exports=router;
