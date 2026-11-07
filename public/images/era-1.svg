@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="t" role="img" viewBox="0 0 480 320">
+  <title id="t">Схема: шахматная доска и дерево перебора ходов</title>
+<defs>
+    <pattern height="24" id="g" patternUnits="userSpaceOnUse" width="24">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".05"/>
+    </pattern>
+<radialGradient cx="50%" cy="45%" id="glow" r="60%">
+      <stop offset="0" stop-color="#c2f970" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#c2f970" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+<rect fill="#0b1218" height="320" width="480"/>
+  <rect fill="url(#g)" height="320" width="480"/>
+  <rect fill="url(#glow)" height="320" width="480"/>
+<text fill="#96a7b1" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.5" x="24" y="34">РИС. 06 / DEEP BLUE</text>
+<rect fill="#0f181d" height="34" width="34" x="30" y="62"/>
+  <rect fill="#1d2b31" height="34" width="34" x="64" y="62"/>
+  <rect fill="#0f181d" height="34" width="34" x="98" y="62"/>
+  <rect fill="#1d2b31" height="34" width="34" x="132" y="62"/>
+  <rect fill="#0f181d" height="34" width="34" x="166" y="62"/>
+  <rect fill="#1d2b31" height="34" width="34" x="200" y="62"/>
+  <rect fill="#1d2b31" height="34" width="34" x="30" y="96"/>
+  <rect fill="#0f181d" height="34" width="34" x="64" y="96"/>
+  <rect fill="#1d2b31" height="34" width="34" x="98" y="96"/>
+  <rect fill="#0f181d" height="34" width="34" x="132" y="96"/>
+  <rect fill="#1d2b31" height="34" width="34" x="166" y="96"/>
+  <rect fill="#0f181d" height="34" width="34" x="200" y="96"/>
+  <rect fill="#0f181d" height="34" width="34" x="30" y="130"/>
+  <rect fill="#1d2b31" height="34" width="34" x="64" y="130"/>
+  <rect fill="#0f181d" height="34" width="34" x="98" y="130"/>
+  <rect fill="#1d2b31" height="34" width="34" x="132" y="130"/>
+  <rect fill="#0f181d" height="34" width="34" x="166" y="130"/>
+  <rect fill="#1d2b31" height="34" width="34" x="200" y="130"/>
+  <rect fill="#1d2b31" height="34" width="34" x="30" y="164"/>
+  <rect fill="#0f181d" height="34" width="34" x="64" y="164"/>
+  <rect fill="#1d2b31" height="34" width="34" x="98" y="164"/>
+  <rect fill="#0f181d" height="34" width="34" x="132" y="164"/>
+  <rect fill="#1d2b31" height="34" width="34" x="166" y="164"/>
+  <rect fill="#0f181d" height="34" width="34" x="200" y="164"/>
+  <rect fill="#0f181d" height="34" width="34" x="30" y="198"/>
+  <rect fill="#1d2b31" height="34" width="34" x="64" y="198"/>
+  <rect fill="#0f181d" height="34" width="34" x="98" y="198"/>
+  <rect fill="#1d2b31" height="34" width="34" x="132" y="198"/>
+  <rect fill="#0f181d" height="34" width="34" x="166" y="198"/>
+  <rect fill="#1d2b31" height="34" width="34" x="200" y="198"/>
+  <rect fill="#1d2b31" height="34" width="34" x="30" y="232"/>
+  <rect fill="#0f181d" height="34" width="34" x="64" y="232"/>
+  <rect fill="#1d2b31" height="34" width="34" x="98" y="232"/>
+  <rect fill="#0f181d" height="34" width="34" x="132" y="232"/>
+  <rect fill="#1d2b31" height="34" width="34" x="166" y="232"/>
+  <rect fill="#0f181d" height="34" width="34" x="200" y="232"/>
+  <rect fill="none" height="204" stroke="#28343c" width="204" x="30" y="62"/>
+  <text fill="#c2f970" font-size="30" text-anchor="middle" x="149" y="158">♞</text>
+  <circle cx="183" cy="79" fill="#73d2ff" fill-opacity=".8" r="5"/>
+  <circle cx="217" cy="181" fill="#73d2ff" fill-opacity=".8" r="5"/>
+  <line stroke="#96a7b1" stroke-opacity=".6" x1="340" x2="300" y1="86" y2="150"/>
+  <line stroke="#96a7b1" stroke-opacity=".6" x1="340" x2="380" y1="86" y2="150"/>
+  <line stroke="#96a7b1" stroke-opacity=".6" x1="300" x2="280" y1="150" y2="214"/>
+  <line stroke="#96a7b1" stroke-opacity=".6" x1="300" x2="320" y1="150" y2="214"/>
+  <line stroke="#96a7b1" stroke-opacity=".6" x1="380" x2="360" y1="150" y2="214"/>
+  <line stroke="#96a7b1" stroke-opacity=".6" x1="380" x2="400" y1="150" y2="214"/>
+  <circle cx="340" cy="86" fill="#151f26" r="9" stroke="#c2f970" stroke-width="1.6"/>
+  <circle cx="300" cy="150" fill="#151f26" r="9" stroke="#73d2ff" stroke-width="1.6"/>
+  <circle cx="380" cy="150" fill="#151f26" r="9" stroke="#c2f970" stroke-width="1.6"/>
+  <circle cx="280" cy="214" fill="#151f26" r="9" stroke="#73d2ff" stroke-width="1.6"/>
+  <circle cx="320" cy="214" fill="#151f26" r="9" stroke="#73d2ff" stroke-width="1.6"/>
+  <circle cx="360" cy="214" fill="#151f26" r="9" stroke="#73d2ff" stroke-width="1.6"/>
+  <circle cx="400" cy="214" fill="#151f26" r="9" stroke="#c2f970" stroke-width="1.6"/>
+  <text fill="#96a7b1" font-family="ui-monospace,Consolas,monospace" font-size="9" text-anchor="middle" x="340" y="62">ПОИСК ХОДОВ</text>
+  <text fill="#96a7b1" font-family="Segoe UI,Arial,sans-serif" font-size="12" x="30" y="296">Перебор вариантов и оценка позиций.</text>
+</svg>

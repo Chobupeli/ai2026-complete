@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="t" role="img" viewBox="0 0 480 320">
+  <title id="t">Схема: диалог с языковой моделью</title>
+<defs>
+    <pattern height="24" id="g" patternUnits="userSpaceOnUse" width="24">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".05"/>
+    </pattern>
+<radialGradient cx="50%" cy="45%" id="glow" r="60%">
+      <stop offset="0" stop-color="#c2f970" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#c2f970" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+<rect fill="#0b1218" height="320" width="480"/>
+  <rect fill="url(#g)" height="320" width="480"/>
+  <rect fill="url(#glow)" height="320" width="480"/>
+<text fill="#96a7b1" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.5" x="24" y="34">РИС. 09 / ЧАТ</text>
+<rect fill="#1b2d36" height="52" rx="14" stroke="#73d2ff" stroke-opacity=".6" width="300" x="150" y="62"/>
+  <text fill="#edf2f3" font-family="Segoe UI,Arial,sans-serif" font-size="13" x="168" y="85">Объясни, как учится нейросеть.</text>
+  <text fill="#96a7b1" font-family="ui-monospace,Consolas,monospace" font-size="9" x="168" y="102">ВОПРОС</text>
+  <rect fill="#16251c" height="86" rx="14" stroke="#c2f970" stroke-opacity=".6" width="320" x="30" y="134"/>
+  <rect fill="#c2f970" fill-opacity="0.55" height="7" rx="3.5" width="260" x="50" y="154"/>
+  <rect fill="#c2f970" fill-opacity="0.45" height="7" rx="3.5" width="230" x="50" y="172"/>
+  <rect fill="#c2f970" fill-opacity="0.35" height="7" rx="3.5" width="150" x="50" y="190"/>
+  <circle cx="58" cy="248" fill="#c2f970" fill-opacity="0.35" r="4"/>
+  <circle cx="74" cy="248" fill="#c2f970" fill-opacity="0.6" r="4"/>
+  <circle cx="90" cy="248" fill="#c2f970" fill-opacity="0.85" r="4"/>
+  <text fill="#96a7b1" font-family="ui-monospace,Consolas,monospace" font-size="9" x="30" y="126">ОТВЕТ МОДЕЛИ</text>
+  <text fill="#96a7b1" font-family="Segoe UI,Arial,sans-serif" font-size="12" x="30" y="296">Удобный интерфейс не гарантирует достоверность.</text>
+</svg>
