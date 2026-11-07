@@ -1,0 +1,1 @@
+const assert=require('node:assert/strict');const Topic=require('./models/topic');assert(new Topic({title:'AI'}).validateSync().errors.nick);assert(!new Topic({title:'AI',nick:'vision'}).validateSync());console.log('Topic validation OK');

@@ -1,0 +1,1 @@
+const mongoose=require('mongoose');const schema=new mongoose.Schema({title:{type:String,required:true},nick:{type:String,required:true,unique:true},avatar:String,desc:String,created:{type:Date,default:Date.now}});module.exports=mongoose.model('Topic',schema);
