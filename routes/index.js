@@ -5,4 +5,5 @@ router.get('/patterns',(req,res)=>res.redirect('/topics/patterns'));
 router.get('/actions',(req,res)=>res.redirect('/topics/actions'));
 router.get('/text',(req,res)=>res.redirect('/topics/text'));
 router.get('/logreg',(req,res)=>res.render('logreg',{title:'Вход и регистрация',home:false,error:null}));
+router.post('/logreg',(req,res)=>{res.render('logreg',{title:'Форма принята',home:false,error:'Форма получена. Вход появится на следующем этапе.'});});
 module.exports=router;
