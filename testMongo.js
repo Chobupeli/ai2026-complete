@@ -1,0 +1,1 @@
+require('dotenv').config();const {MongoClient}=require('mongodb');const client=new MongoClient(process.env.MONGO_URL||'mongodb://127.0.0.1:27017/ai2026');async function main(){try{await client.connect();console.log(await client.db().command({ping:1}));}finally{await client.close();}}main().catch(e=>{console.error(e.message);process.exitCode=1;});
