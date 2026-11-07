@@ -12,7 +12,8 @@ app.locals.nav=[]; app.locals.user=null; app.locals.counter=0; app.locals.authUI
 const mongoose=require('mongoose');
 mongoose.connect(process.env.MONGO_URL || 'mongodb://127.0.0.1:27017/ai2026').catch(err=>console.error('MongoDB:',err.message));
 const session=require('express-session');
-app.use(session({secret:process.env.SESSION_SECRET || 'local-study-only-change-before-deployment',resave:false,saveUninitialized:false,cookie:{httpOnly:true,sameSite:'lax',maxAge:3600000}}));
+const MongoStore=require('connect-mongo');
+app.use(session({secret:process.env.SESSION_SECRET || 'local-study-only-change-before-deployment',resave:false,saveUninitialized:false,cookie:{httpOnly:true,sameSite:'lax',maxAge:3600000},store:MongoStore.create({mongoUrl:process.env.MONGO_URL || 'mongodb://127.0.0.1:27017/ai2026'})}));
 app.use('/',require('./routes/index'));
 app.use('/topics',require('./routes/topics'));
 app.use((req,res,next)=>{const err=new Error('Страница не найдена');err.status=404;next(err);});
