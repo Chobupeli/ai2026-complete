@@ -1,0 +1,1 @@
+const User=require('../models/user');module.exports=async(req,res,next)=>{res.locals.user=null;if(!req.session.userid)return next();try{res.locals.user=await User.findById(req.session.userid).select('username').lean();if(!res.locals.user)delete req.session.userid;next();}catch(err){next(err);}};

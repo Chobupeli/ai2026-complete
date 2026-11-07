@@ -17,6 +17,7 @@ app.use(session({secret:process.env.SESSION_SECRET || 'local-study-only-change-b
 app.use((req,res,next)=>{ req.session.counter=(req.session.counter||0)+1; res.locals.counter=req.session.counter; next(); });
 app.use(require('./middlewares/createMenu'));
 app.locals.authUI=true;
+app.use(require('./middlewares/createUser'));
 app.use('/',require('./routes/index'));
 app.use('/topics',require('./routes/topics'));
 app.use((req,res,next)=>{const err=new Error('Страница не найдена');err.status=404;next(err);});
