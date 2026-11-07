@@ -1,0 +1,1 @@
+const assert=require('node:assert/strict');const User=require('./models/user');const user=new User({username:'demo'});user.setPassword('example-password');assert(user.checkPassword('example-password'));assert(!user.checkPassword('wrong-password'));assert(!user.validateSync());console.log('Password hashing and validation OK');
