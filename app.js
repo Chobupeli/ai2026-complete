@@ -1,0 +1,14 @@
+require('dotenv').config();
+const express=require('express');
+const path=require('path');
+const app=express();
+app.set('views',path.join(__dirname,'views'));
+app.set('view engine','ejs');
+app.use(express.urlencoded({extended:false,limit:'16kb'}));
+app.use(express.json({limit:'16kb'}));
+app.use(express.static(path.join(__dirname,'public')));
+app.locals.nav=[]; app.locals.user=null; app.locals.counter=0; app.locals.authUI=false;
+app.use('/',require('./routes/index'));
+app.use((req,res,next)=>{const err=new Error('Страница не найдена');err.status=404;next(err);});
+app.use((err,req,res,next)=>{res.status(err.status||500);res.render('error',{title:'Ошибка — AI',message:err.status===404?err.message:'Ошибка сервера',error:app.get('env')==='development'?err:{}});});
+module.exports=app;
