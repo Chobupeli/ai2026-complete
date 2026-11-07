@@ -12,6 +12,7 @@ app.locals.nav=[]; app.locals.user=null; app.locals.counter=0; app.locals.authUI
 const mongoose=require('mongoose');
 mongoose.connect(process.env.MONGO_URL || 'mongodb://127.0.0.1:27017/ai2026').catch(err=>console.error('MongoDB:',err.message));
 app.use('/',require('./routes/index'));
+app.use('/topics',require('./routes/topics'));
 app.use((req,res,next)=>{const err=new Error('Страница не найдена');err.status=404;next(err);});
 app.use((err,req,res,next)=>{res.status(err.status||500);res.render('error',{title:'Ошибка — AI',message:err.status===404?err.message:'Ошибка сервера',error:app.get('env')==='development'?err:{}});});
 module.exports=app;
