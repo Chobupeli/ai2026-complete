@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="t" role="img" viewBox="0 0 480 320">
+  <title id="t">Схема: модель оценивает вероятности следующего слова</title>
+<defs>
+    <pattern height="24" id="g" patternUnits="userSpaceOnUse" width="24">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".05"/>
+    </pattern>
+<radialGradient cx="50%" cy="45%" id="glow" r="60%">
+      <stop offset="0" stop-color="#c2f970" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#c2f970" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+<rect fill="#0b1218" height="320" width="480"/>
+  <rect fill="url(#g)" height="320" width="480"/>
+  <rect fill="url(#glow)" height="320" width="480"/>
+<text fill="#96a7b1" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.5" x="24" y="34">РИС. 04 / ТЕКСТ</text>
+<rect fill="#151f26" height="30" rx="7" stroke="#28343c" width="36" x="26" y="58"/>
+  <text fill="#edf2f3" font-family="Segoe UI,Arial,sans-serif" font-size="13" text-anchor="middle" x="44.0" y="78">На</text>
+  <rect fill="#151f26" height="30" rx="7" stroke="#28343c" width="72" x="69" y="58"/>
+  <text fill="#edf2f3" font-family="Segoe UI,Arial,sans-serif" font-size="13" text-anchor="middle" x="105.0" y="78">ночном</text>
+  <rect fill="#151f26" height="30" rx="7" stroke="#28343c" width="54" x="148" y="58"/>
+  <text fill="#edf2f3" font-family="Segoe UI,Arial,sans-serif" font-size="13" text-anchor="middle" x="175.0" y="78">небе</text>
+  <rect fill="#151f26" height="30" rx="7" stroke="#28343c" width="54" x="209" y="58"/>
+  <text fill="#edf2f3" font-family="Segoe UI,Arial,sans-serif" font-size="13" text-anchor="middle" x="236.0" y="78">ярко</text>
+  <rect fill="#151f26" height="30" rx="7" stroke="#28343c" width="72" x="270" y="58"/>
+  <text fill="#edf2f3" font-family="Segoe UI,Arial,sans-serif" font-size="13" text-anchor="middle" x="306.0" y="78">светит</text>
+  <path d="M240 98V128M232 120l8 10 8-10" fill="none" stroke="#c2f970" stroke-width="2"/>
+  <text fill="#edf2f3" font-family="Segoe UI,Arial,sans-serif" font-size="14" x="46" y="164">луна</text>
+  <rect fill="#28343c" height="20" rx="5" width="260" x="130" y="150"/>
+  <rect fill="#c2f970" fill-opacity=".85" height="20" rx="5" width="161" x="130" y="150"/>
+  <text fill="#c2f970" font-family="ui-monospace,Consolas,monospace" font-size="12" text-anchor="end" x="434" y="165">62%</text>
+  <text fill="#edf2f3" font-family="Segoe UI,Arial,sans-serif" font-size="14" x="46" y="206">звезда</text>
+  <rect fill="#28343c" height="20" rx="5" width="260" x="130" y="192"/>
+  <rect fill="#73d2ff" fill-opacity=".85" height="20" rx="5" width="78" x="130" y="192"/>
+  <text fill="#73d2ff" font-family="ui-monospace,Consolas,monospace" font-size="12" text-anchor="end" x="434" y="207">30%</text>
+  <text fill="#edf2f3" font-family="Segoe UI,Arial,sans-serif" font-size="14" x="46" y="248">фонарь</text>
+  <rect fill="#28343c" height="20" rx="5" width="260" x="130" y="234"/>
+  <rect fill="#73d2ff" fill-opacity=".85" height="20" rx="5" width="21" x="130" y="234"/>
+  <text fill="#73d2ff" font-family="ui-monospace,Consolas,monospace" font-size="12" text-anchor="end" x="434" y="249">8%</text>
+  <text fill="#96a7b1" font-family="Segoe UI,Arial,sans-serif" font-size="12" x="26" y="296">Вероятности в примере учебные, не реальные.</text>
+</svg>

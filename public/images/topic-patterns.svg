@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="t" role="img" viewBox="0 0 480 320">
+  <title id="t">График: точки данных, линия закономерности и прогноз</title>
+<defs>
+    <pattern height="24" id="g" patternUnits="userSpaceOnUse" width="24">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".05"/>
+    </pattern>
+<radialGradient cx="50%" cy="45%" id="glow" r="60%">
+      <stop offset="0" stop-color="#c2f970" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#c2f970" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+<rect fill="#0b1218" height="320" width="480"/>
+  <rect fill="url(#g)" height="320" width="480"/>
+  <rect fill="url(#glow)" height="320" width="480"/>
+<text fill="#96a7b1" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.5" x="24" y="34">РИС. 02 / ЗАКОНОМЕРНОСТИ</text>
+<path d="M50 270V60M50 270H440" fill="none" stroke="#96a7b1" stroke-width="1.2"/>
+  <circle cx="70" cy="245" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="86" cy="248" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="103" cy="208" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="120" cy="245" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="136" cy="186" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="152" cy="225" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="169" cy="183" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="186" cy="189" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="202" cy="189" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="218" cy="152" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="235" cy="187" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="252" cy="129" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="268" cy="168" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="284" cy="124" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="301" cy="132" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="318" cy="130" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="334" cy="95" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="350" cy="129" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="367" cy="71" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="384" cy="111" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="400" cy="65" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <circle cx="416" cy="76" fill="#73d2ff" fill-opacity=".85" r="4.5"/>
+  <path d="M62 252L420 76" fill="none" stroke="#c2f970" stroke-width="2.5"/>
+  <circle cx="420" cy="76" fill="none" r="9" stroke="#c2f970" stroke-dasharray="3 3"/>
+  <text fill="#c2f970" font-family="Segoe UI,Arial,sans-serif" font-size="12" x="338" y="62">прогноз</text>
+  <text fill="#96a7b1" font-family="ui-monospace,Consolas,monospace" font-size="10" text-anchor="end" x="446" y="284">признак →</text>
+  <text fill="#96a7b1" font-family="ui-monospace,Consolas,monospace" font-size="10" x="58" y="56">результат ↑</text>
+  <text fill="#96a7b1" font-family="Segoe UI,Arial,sans-serif" font-size="12" x="70" y="302">Связь в данных не доказывает причину.</text>
+</svg>
